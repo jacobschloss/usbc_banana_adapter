@@ -76,7 +76,120 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|109300000|75250000|f3c3376a-81e7-43a7-b218-27f5866cce8b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|109300000|76200000|397ac11c-3396-491c-aa33-0ffcbfd59026|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|109300000|77150000|fdbb5b7c-1adc-4ed9-a5db-f3f1bed11cce|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|109300000|78050000|baa9f9f6-b708-4380-8713-851874d7fb98|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|109300000|78950000|52595fd6-209b-4766-b8ee-335324971b2c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|109300000|79850000|28dd9582-db9c-42b3-8239-b96885353e71|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|109300000|80800000|f453e55f-3d36-4cab-a44b-572ead6b96d6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|109300000|81750000|1ae8fe74-4c17-4f3d-a38b-b146eaf6bc00|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|75250000|aadca9a7-76d1-43ca-a738-0edabc590a52|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|76200000|ac921653-c16c-42cd-bc9a-98c312d40201|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|77150000|96724ddb-f936-4c96-970e-8d206989b725|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|78050000|b12ef711-4fcd-4be5-b891-08e310569657|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|78950000|fe455896-bf85-47aa-acf7-fdb43d168ada|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|79850000|070b8e18-e991-4382-bfff-a6e13f0bba12|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|80800000|3305e390-7c99-4736-b07f-2a50cfb7edd3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|110700000|81750000|59c7a351-b85f-4a7c-8cbe-2f9297afbd49|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "courtyards_overlap|123527276|90225000|34f2ab19-eaa4-4278-920e-07cff9326a7b|5549b0ec-a9ed-4dc5-aa11-e92236c4b00e",
+          ""
+        ],
+        [
+          "silk_over_copper|108000000|75735000|9be7f93f-736f-4dc9-9df7-a6e8f3ecdc60|bb9f7fdc-b77f-41a4-bb19-5c82053e1255",
+          ""
+        ],
+        [
+          "silk_over_copper|108000000|79735000|9be7f93f-736f-4dc9-9df7-a6e8f3ecdc60|4ea58c9e-b752-4a77-babb-557a2dd932f9",
+          ""
+        ],
+        [
+          "silk_over_copper|112000000|77265000|9be7f93f-736f-4dc9-9df7-a6e8f3ecdc60|b5890b74-e3c0-4028-9f04-3b9fbde7f04c",
+          ""
+        ],
+        [
+          "silk_over_copper|112000000|81265000|9be7f93f-736f-4dc9-9df7-a6e8f3ecdc60|03209fb9-46a8-4e20-8698-1f5a44939dfb",
+          ""
+        ],
+        [
+          "silk_overlap|108333333|73750000|9be7f93f-736f-4dc9-9df7-a6e8f3ecdc60|f9511cab-a29e-4757-a0b5-7d42cfe3411a",
+          ""
+        ],
+        [
+          "starved_thermal|108070000|80500000|29a7c170-5060-4020-93d5-328bc9990eb5|4ea58c9e-b752-4a77-babb-557a2dd932f9|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|109300000|75250000|b8e88249-37d8-4e1a-b328-2b280335057a|f3c3376a-81e7-43a7-b218-27f5866cce8b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|109300000|81750000|b8e88249-37d8-4e1a-b328-2b280335057a|1ae8fe74-4c17-4f3d-a38b-b146eaf6bc00|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|110700000|75250000|b8e88249-37d8-4e1a-b328-2b280335057a|aadca9a7-76d1-43ca-a738-0edabc590a52|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|110700000|81750000|b8e88249-37d8-4e1a-b328-2b280335057a|59c7a351-b85f-4a7c-8cbe-2f9297afbd49|F.Cu",
+          ""
+        ],
+        [
+          "unconnected_items|109397900|74926000|F.Cu|4|b8e88249-37d8-4e1a-b328-2b280335057a|b8e88249-37d8-4e1a-b328-2b280335057a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -162,7 +275,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -587,6 +700,12 @@
         },
         {
           "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "LCSC PN",
           "name": "LCSC PN",
           "show": true
@@ -623,12 +742,6 @@
         },
         {
           "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
@@ -651,7 +764,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "MPN"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -694,7 +807,7 @@
         "uuid": "9e3383b6-f7c2-43ac-9b69-74550a87d0ae"
       }
     ],
-    "used_designators": "#PWR9,J1,R9,FID1-3,H3-8,U3",
+    "used_designators": "C7,H9-10",
     "variants": []
   },
   "sheets": [
