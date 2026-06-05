@@ -5235,7 +5235,7 @@
 				)
 			)
 		)
-		(property "Value" "6072"
+		(property "Value" "659"
 			(at 81.28 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5278,6 +5278,17 @@
 				)
 			)
 		)
+		(property "MPN" "659"
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "usbc_banana_adapter"
 				(path "/9e3383b6-f7c2-43ac-9b69-74550a87d0ae"
@@ -5309,7 +5320,7 @@
 				)
 			)
 		)
-		(property "Value" "6072"
+		(property "Value" "659"
 			(at 69.85 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5342,6 +5353,17 @@
 			)
 		)
 		(property "Description" "Mounting screw"
+			(at 69.85 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "659"
 			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
