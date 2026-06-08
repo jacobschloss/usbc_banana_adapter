@@ -1035,6 +1035,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -3331,6 +3499,12 @@
 		(uuid "513926d4-4a88-49a9-bec0-db0f51230785")
 	)
 	(junction
+		(at 88.9 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a9f811-42f4-4991-9a5e-8dd303b315d8")
+	)
+	(junction
 		(at 55.88 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3437,6 +3611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf8192fd-a738-4acb-855c-fb1faca470f7")
+	)
+	(junction
+		(at 88.9 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78ea06c-01eb-41de-a73e-b0d5046901fd")
 	)
 	(junction
 		(at 64.77 41.91)
@@ -3598,7 +3778,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 119.38) (xy 88.9 121.92)
+			(xy 88.9 120.65) (xy 88.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ef2e96-2706-4a11-a73b-2e706a15e1be")
+	)
+	(wire
+		(pts
+			(xy 88.9 119.38) (xy 88.9 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3705,6 +3895,16 @@
 			(type default)
 		)
 		(uuid "39a7996a-ed41-409f-947c-678c038a7371")
+	)
+	(wire
+		(pts
+			(xy 77.47 120.65) (xy 88.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440201ba-b835-44dd-9393-219383e1cf15")
 	)
 	(wire
 		(pts
@@ -3835,6 +4035,16 @@
 			(type default)
 		)
 		(uuid "64260873-be13-420a-a9d7-c28fa957e3a5")
+	)
+	(wire
+		(pts
+			(xy 77.47 110.49) (xy 77.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668c0aa5-56ed-470f-84ff-79c552c7f3ef")
 	)
 	(wire
 		(pts
@@ -4248,6 +4458,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 105.41) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4b450b-fd14-4c46-aa99-17871b2101c5")
+	)
+	(wire
+		(pts
 			(xy 154.94 60.96) (xy 193.04 60.96)
 		)
 		(stroke
@@ -4285,6 +4505,16 @@
 			(type default)
 		)
 		(uuid "c2201e4d-4035-477e-9b6d-735517de765a")
+	)
+	(wire
+		(pts
+			(xy 77.47 115.57) (xy 77.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4960522-97b0-4386-a345-28805728055a")
 	)
 	(wire
 		(pts
@@ -4328,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 104.14) (xy 88.9 106.68)
+			(xy 88.9 104.14) (xy 88.9 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4475,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "f206012e-f918-44a5-b155-2c88813c1252")
+	)
+	(wire
+		(pts
+			(xy 88.9 105.41) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45c1518-55e0-4c95-ad7e-59947b06ff2d")
 	)
 	(wire
 		(pts
@@ -4847,7 +5087,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 69.85 120.65 0)
+		(at 59.69 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4858,7 +5098,7 @@
 		(fields_autoplaced yes)
 		(uuid "00472155-c776-464c-aa5a-e5b5a3ac3ccd")
 		(property "Reference" "H7"
-			(at 69.85 116.586 0)
+			(at 59.69 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4868,7 +5108,7 @@
 			)
 		)
 		(property "Value" "96659A102"
-			(at 69.85 124.206 0)
+			(at 59.69 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4878,7 +5118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 120.65 0)
+			(at 59.69 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4889,7 +5129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 120.65 0)
+			(at 59.69 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +5140,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 69.85 120.65 0)
+			(at 59.69 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,7 +5379,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 48.26 116.84 0)
+		(at 38.1 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5150,7 +5390,7 @@
 		(fields_autoplaced yes)
 		(uuid "115b89de-37d7-4d60-a022-8dd919f64373")
 		(property "Reference" "H5"
-			(at 50.8 115.5699 0)
+			(at 40.64 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5161,7 +5401,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 50.8 118.1099 0)
+			(at 40.64 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5172,7 +5412,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 48.26 116.84 0)
+			(at 38.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,7 +5423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 116.84 0)
+			(at 38.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +5434,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 48.26 116.84 0)
+			(at 38.1 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5215,7 +5455,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 81.28 110.49 0)
+		(at 71.12 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5226,7 +5466,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b758498-5ae4-4619-9682-59e16597c088")
 		(property "Reference" "H3"
-			(at 81.28 106.426 0)
+			(at 71.12 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5236,7 +5476,7 @@
 			)
 		)
 		(property "Value" "659"
-			(at 81.28 114.046 0)
+			(at 71.12 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5246,7 +5486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 110.49 0)
+			(at 71.12 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5257,7 +5497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 110.49 0)
+			(at 71.12 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5268,7 +5508,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 81.28 110.49 0)
+			(at 71.12 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,7 +5519,7 @@
 			)
 		)
 		(property "MPN" "659"
-			(at 81.28 110.49 0)
+			(at 71.12 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5540,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 69.85 110.49 0)
+		(at 59.69 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5311,7 +5551,7 @@
 		(fields_autoplaced yes)
 		(uuid "342a4d0d-9f72-4455-99dc-2bedd50e6734")
 		(property "Reference" "H4"
-			(at 69.85 106.426 0)
+			(at 59.69 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5321,7 +5561,7 @@
 			)
 		)
 		(property "Value" "659"
-			(at 69.85 114.046 0)
+			(at 59.69 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5331,7 +5571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 110.49 0)
+			(at 59.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5342,7 +5582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 110.49 0)
+			(at 59.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5593,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 69.85 110.49 0)
+			(at 59.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +5604,7 @@
 			)
 		)
 		(property "MPN" "659"
-			(at 69.85 110.49 0)
+			(at 59.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5774,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 48.26 101.6 0)
+		(at 38.1 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5545,7 +5785,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cd5d555-c98a-4823-b517-71ad698ce5b2")
 		(property "Reference" "FID1"
-			(at 50.8 100.3299 0)
+			(at 40.64 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5556,7 +5796,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 50.8 102.8699 0)
+			(at 40.64 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5567,7 +5807,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 48.26 101.6 0)
+			(at 38.1 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5578,7 +5818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 101.6 0)
+			(at 38.1 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,7 +5829,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 48.26 101.6 0)
+			(at 38.1 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,6 +6877,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 77.47 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83effe86-5d5c-49e5-b4cd-a893819cad2c")
+		(property "Reference" "D2"
+			(at 80.01 111.5059 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS54"
+			(at 80.01 114.0459 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 77.47 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 77.47 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC PN" "C22452"
+			(at 77.47 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SS54"
+			(at 77.47 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f519b1f7-9222-4e90-9c53-172c52ce8bd4")
+		)
+		(pin "1"
+			(uuid "563ef897-ac72-49a7-9fb6-60d8e475289b")
+		)
+		(instances
+			(project "usbc_banana_adapter"
+				(path "/9e3383b6-f7c2-43ac-9b69-74550a87d0ae"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 88.9 116.84 0)
 		(unit 1)
@@ -7107,7 +7451,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 48.26 111.76 0)
+		(at 38.1 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7118,7 +7462,7 @@
 		(fields_autoplaced yes)
 		(uuid "af2322b6-6293-4acb-9d76-38a0791d0fbf")
 		(property "Reference" "FID3"
-			(at 50.8 110.4899 0)
+			(at 40.64 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7129,7 +7473,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 50.8 113.0299 0)
+			(at 40.64 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7140,7 +7484,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 48.26 111.76 0)
+			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +7495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 111.76 0)
+			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +7506,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 48.26 111.76 0)
+			(at 38.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7617,7 +7961,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 48.26 106.68 0)
+		(at 38.1 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7628,7 +7972,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8e97530-fc22-4f81-a065-f0e4a646e783")
 		(property "Reference" "FID2"
-			(at 50.8 105.4099 0)
+			(at 40.64 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7639,7 +7983,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 50.8 107.9499 0)
+			(at 40.64 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7650,7 +7994,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 48.26 106.68 0)
+			(at 38.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7661,7 +8005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 106.68 0)
+			(at 38.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +8016,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 48.26 106.68 0)
+			(at 38.1 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7693,7 +8037,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 48.26 121.92 0)
+		(at 38.1 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7704,7 +8048,7 @@
 		(fields_autoplaced yes)
 		(uuid "d191b48d-abc3-4849-be2e-c7053c32c089")
 		(property "Reference" "H6"
-			(at 50.8 120.6499 0)
+			(at 40.64 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7715,7 +8059,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 50.8 123.1899 0)
+			(at 40.64 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7726,7 +8070,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 48.26 121.92 0)
+			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,7 +8081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 121.92 0)
+			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +8092,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 48.26 121.92 0)
+			(at 38.1 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8165,7 +8509,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 81.28 120.65 0)
+		(at 71.12 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8176,7 +8520,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee400c22-76b5-4454-8e79-65e7eef14650")
 		(property "Reference" "H8"
-			(at 81.28 116.586 0)
+			(at 71.12 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8186,7 +8530,7 @@
 			)
 		)
 		(property "Value" "96659A102"
-			(at 81.28 124.206 0)
+			(at 71.12 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8196,7 +8540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 120.65 0)
+			(at 71.12 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +8551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 120.65 0)
+			(at 71.12 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +8562,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 81.28 120.65 0)
+			(at 71.12 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
